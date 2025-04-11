@@ -12,7 +12,7 @@ from datetime import timedelta
 from sklearn.metrics import classification_report, roc_auc_score
 
 # Load model once
-MODEL_PATH = "crime_predictor_model_demo.pkl"
+MODEL_PATH = "crime_predictor_model.pkl"
 try:
     model = joblib.load(MODEL_PATH)
 except FileNotFoundError:
